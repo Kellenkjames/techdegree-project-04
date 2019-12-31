@@ -4,19 +4,9 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
 }
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
-
 
 /* ============================================= */
 /*              Typography                       */
@@ -28,7 +18,6 @@ a {
 }
 
 .headline-secondary {
-  font-weight: 300;
   color: #777;
 }
 
@@ -38,9 +27,6 @@ a {
 }
 
 .blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
@@ -204,12 +190,12 @@ a {
 }
 
 .hidden {
-  position:absolute;
-  left:-10000px;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 
