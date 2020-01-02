@@ -1,5 +1,5 @@
-@use 'utilities/index',
+@use 'base/index',
      'component/index',
-     'base/index';
+     'utilities/index';
 
 /*# sourceMappingURL=styles.css.map */
