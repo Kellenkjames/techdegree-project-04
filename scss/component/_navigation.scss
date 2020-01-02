@@ -1,25 +1,42 @@
-// NAVIGATION
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
 
 .nav {
-    padding-left: 0;
-    flex-basis: 100%;
-    display: flex;
-    flex-direction: column;
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: 
+  background-color .2s ease-in-out, 
+  color .2s ease-in-out;
+
+  &:hover {
+    color: $color-white;
+    background-color: #58e1c1;
+  }
+
+}
+
+// MEDIA 
+@media screen and (min-width: 768px) {
+  
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   }
   
   .nav-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
-
-    &:hover {
-    color: #fff;
-    background-color: #58e1c1;
-    }
+    flex-basis: 100px;
   }
   
+}
