@@ -1,7 +1,9 @@
 // GLOBAL IMPORTS --------------------------------- /
 
-@use 'base/index', 
-     'component/index',
-     'utilities/index';
+@import 'utilities/index',
+        'component/index',
+        'base/index'
+        
+        
 
 
