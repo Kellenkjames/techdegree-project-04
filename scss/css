@@ -1,5 +1,0 @@
-@use 'base/index',
-     'component/index',
-     'utilities/index';
-
-/*# sourceMappingURL=output.css.map */
