@@ -27,7 +27,7 @@
 }
 
 .theme.col-3 {
-    background-color: lighten($color-btn-info, 25%);
+    background-color: lighten($color-btn-info, 18%);
 }
 
 .theme.col-4 {
@@ -47,7 +47,7 @@
 }
 
 .theme.col-8 {
-    background-color: darken($color-btn-warning, 5%);
+    background-color: lighten($color-btn-warning, 10%);
 }
 
 .theme.col-9 {
@@ -63,7 +63,7 @@
 }
 
 .theme.col-12 {
-    background-color: lighten($color-btn-success, 10%);
+    background-color: lighten($color-btn-default, 13%);
 }
 
 .card {
@@ -76,7 +76,7 @@
 @media (min-width: 768px) {
     
     .container {
-        max-width: 1400px;
+        max-width: $max-width-laptop;
         @include centered;
     }
     
@@ -121,6 +121,7 @@
     
     .col-7 {
         flex-basis: 58.33%;
+        @include horizontal-center;
     }
     
     .col-8 {
