@@ -12,6 +12,11 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px; }
+  @media screen and (min-width: 768px) {
+    .btn .btn {
+      padding: 10px 30px; }
+    .btn .btn + .btn {
+      margin-left: 10px; } }
 
 .default {
   background-color: #51ddfc; }
@@ -28,15 +33,6 @@
 .warning {
   background-color: #fd7856; }
 
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
-@media (min-width: 768px) {
-  .btn {
-    padding: 10px 30px; }
-
-  .btn + .btn {
-    margin-left: 10px; } }
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
