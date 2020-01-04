@@ -5,8 +5,7 @@
 }
 
 .row {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     padding: 1em 10px;
 }
 

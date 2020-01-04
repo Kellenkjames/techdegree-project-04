@@ -13,3 +13,12 @@
     margin-right: auto;
 }
 
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin for-tablet-up {
+    @media (min-width: 768px) { @content; }
+}
+
