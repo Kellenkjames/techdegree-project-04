@@ -99,52 +99,43 @@
 
 // COL THEMES 
 
-.theme.col-1 {
-    background-color: $color-btn-info;
-}
-
-.theme.col-2 {
-    background-color: $color-btn-warning;
-}
-
-.theme.col-3 {
-    background-color: lighten($color-btn-info, 18%);
-}
-
-.theme.col-4 {
-    background-color: lighten($color-btn-default, 8%);
-}
-
-.theme.col-5 {
-    background-color: lighten($color-btn-success, 10%);
-}
-
-.theme.col-6 {
-    background-color: $color-primary-dark;
-}
-
-.theme.col-7 {
-    background-color: lighten($color-btn-error, 10%);
-}
-
-.theme.col-8 {
-    background-color: lighten($color-btn-warning, 10%);
-}
-
-.theme.col-9 {
-    background-color: $color-btn-error;
-}
-
-.theme.col-10 {
-    background-color: $color-btn-success;
-}
-
-.theme.col-11 {
-    background-color: $color-btn-default;
-}
-
-.theme.col-12 {
-    background-color: lighten($color-btn-default, 13%);
+.theme.col {
+    &-1 {
+        background-color: $color-btn-info;
+    }
+    &-2 {
+        background-color: $color-btn-warning;
+    }
+    &-3 {
+        background-color: lighten($color-btn-info, 18%);
+    }
+    &-4 {
+        background-color: lighten($color-btn-default, 8%);
+    }
+    &-5 {
+        background-color: lighten($color-btn-success, 10%);
+    }
+    &-6 {
+        background-color: $color-primary-dark;
+    }
+    &-7 {
+        background-color: lighten($color-btn-error, 10%);
+    }
+    &-8 {
+        background-color: lighten($color-btn-warning, 10%);
+    }
+    &-9 {
+        background-color: $color-btn-error;
+    }
+    &-10 {
+        background-color: $color-btn-success;
+    }
+    &-11 {
+        background-color: $color-btn-default;
+    }
+    &-12 {
+        background-color: lighten($color-btn-default, 13%);
+    }
 }
 
 .card {
