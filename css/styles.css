@@ -13,9 +13,9 @@
   text-transform: uppercase;
   border-radius: 5px; }
   @media screen and (min-width: 768px) {
-    .btn .btn {
+    .btn {
       padding: 10px 30px; }
-    .btn .btn + .btn {
+    .btn + .btn {
       margin-left: 10px; } }
 
 .default {
