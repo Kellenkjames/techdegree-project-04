@@ -7,16 +7,14 @@
   margin-top: $gutter;
   max-width: 100%; 
   max-height: 100%;
-}
-
-.img-frame {
-  @include centered;
-  margin-top: $gutter;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid darken($color-white, 20%);
-}
-
-.img-logo {
-  @include centered;
+  &-frame {
+    @include centered;
+    margin-top: $gutter;
+    max-width: 100%;
+    padding: 13px;
+    border: 1px solid darken($color-white, 20%);
+  }
+  &-logo {
+    @include centered;
+  }
 }
