@@ -33,78 +33,71 @@
     }
 }
 
-.col-1 {
-    @include for-tablet-up {
-        flex-basis: 8.33%;
+.col {
+    &-1 {
+        @include for-tablet-up {
+            flex-basis: 8.33%;
+        }
+    }
+    &-2 {
+        @include for-tablet-up {
+            flex-basis: 16.67%;
+        }
+    }
+    &-3 {
+        @include for-tablet-up {
+            flex-basis: 25.00%;
+        }
+    }
+    &-4 {
+        @include for-tablet-up {
+            flex-basis: 33.33%;
+        }
+    }
+    &-5 {
+        @include for-tablet-up {
+            flex-basis: 41.67%;
+        }
+    }
+    &-6 {
+        @include for-tablet-up {
+            flex-basis: 50.00%;
+        }
+    }
+    &-7 {
+        @include for-tablet-up {
+            flex-basis: 58.33%;
+            @include horizontal-center;
+        }
+    }
+    &-8 {
+        @include for-tablet-up {
+            flex-basis: 66.67%;
+        }
+    }
+    &-9 {
+        @include for-tablet-up {
+            flex-basis: 75.00%;
+        }
+    }
+    &-10 {
+        @include for-tablet-up {
+            flex-basis: 83.33%;
+        }
+    }
+    &-11 {
+        @include for-tablet-up {
+            flex-basis: 91.67%;
+        }
+    }
+    &-12 {
+        @include for-tablet-up {
+            flex-basis: 100%;
+        }
     }
 }
 
-.col-2 {
-    @include for-tablet-up {
-        flex-basis: 16.67%;
-    }
-}
-
-.col-3 {
-    @include for-tablet-up {
-        flex-basis: 25.00%;
-    }
-}
-
-.col-4 {
-    @include for-tablet-up {
-        flex-basis: 33.33%;
-    }
-}
-
-.col-5 {
-    @include for-tablet-up {
-        flex-basis: 41.67%;
-    }
-}
-
-.col-6 {
-    @include for-tablet-up {
-        flex-basis: 50.00%;
-    }
-}
-
-.col-7 {
-    @include for-tablet-up {
-        flex-basis: 58.33%;
-        @include horizontal-center;
-    }
-}
-
-.col-8 {
-    @include for-tablet-up {
-        flex-basis: 66.67%;
-    }
-}
-
-.col-9 {
-    @include for-tablet-up {
-        flex-basis: 75.00%;
-    }
-}
-
-.col-10 {
-    @include for-tablet-up {
-        flex-basis: 83.33%;
-    }
-}
-
-.col-11 {
-    @include for-tablet-up {
-        flex-basis: 91.67%;
-    }
-}
-
-.col-12 {
-    @include for-tablet-up {
-        flex-basis: 100%;
-    }
-}
+// COL THEMES 
 
 .theme.col-1 {
     background-color: $color-btn-info;
