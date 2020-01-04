@@ -16,14 +16,15 @@ a {
     text-decoration: none;
 }
 
-.headline-primary {
-    color: $color-btn-accent;
-    margin-left: 10px;
-}
-
-.headline-secondary {
-    font-weight: $font-weight-lighter;
-    color: $color-grey-dark;
+.headline {
+    &-primary {
+        color: $color-btn-accent;
+        margin-left: 10px;
+    }
+    &-secondary {
+        font-weight: $font-weight-lighter;
+        color: $color-grey-dark;
+    }
 }
 
 .link {
