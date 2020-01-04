@@ -19,7 +19,7 @@ a {
 .headline {
     &-primary {
         color: $color-btn-accent;
-        margin-left: 10px;
+        margin-left: $gutter;
     }
     &-secondary {
         font-weight: $font-weight-lighter;
