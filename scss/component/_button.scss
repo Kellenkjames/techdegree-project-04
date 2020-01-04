@@ -10,6 +10,21 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  &.default {
+    background-color: $color-primary-light;
+  }
+  &.error {
+    background-color: $color-btn-error;
+  }
+  &.info {
+    background-color: $color-btn-info;
+  }
+  &.success {
+    background-color: $color-btn-success;
+  }
+  &.warning {
+    background-color: $color-btn-warning;
+  }
   @include for-tablet-up {
     & {
       padding: 10px 30px;
@@ -20,25 +35,6 @@
   } 
 }
 
-.default {
-  background-color: $color-primary-light;
-}
-
-.error {
-  background-color: $color-btn-error;
-}
-
-.info {
-  background-color: $color-btn-info;
-}
-
-.success {
-  background-color: $color-btn-success;
-}
-
-.warning {
-  background-color: $color-btn-warning;
-}
 
 
 

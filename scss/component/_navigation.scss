@@ -29,14 +29,7 @@
   }
 }
 
-// FUNCTIONS (EX 1)
-@function px-to-pc($target, $context: $max-width) {
-  @return ($target / $context) * 100;
-}
 
-.test {
-  width: px-to-pc(400px);
-}
 
 
 
