@@ -19,6 +19,6 @@
 }
 
 @mixin for-tablet-up {
-    @media (min-width: 768px) { @content; }
+    @media (min-width: #{$break-tablet}) { @content; }
 }
 

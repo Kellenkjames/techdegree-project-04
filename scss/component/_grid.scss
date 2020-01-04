@@ -2,6 +2,10 @@
 
 .container {
     padding: 0 10px;
+    @include for-tablet-up {
+        max-width: $max-width-laptop;
+        @include centered;
+    }
 }
 
 .row {
@@ -75,8 +79,7 @@
 @media (min-width: 768px) {
     
     .container {
-        max-width: $max-width-laptop;
-        @include centered;
+        
     }
     
     .row {
