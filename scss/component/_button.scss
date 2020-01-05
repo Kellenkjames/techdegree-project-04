@@ -12,38 +12,20 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
-  &:hover {
-    color: $color-grey-dark;
-  }
   &.default {
     background-color: $color-primary-light;
-    &:hover {
-      background-color: lighten($color-primary-light, 15%);
-    }
   }
   &.error {
     background-color: $color-btn-error;
-    &:hover {
-      background-color: lighten($color-btn-error, 15%);
-    }
   }
   &.info {
     background-color: $color-btn-info;
-    &:hover {
-      background-color: lighten($color-btn-info, 15%);
-    }
   }
   &.success {
     background-color: $color-btn-success;
-    &:hover {
-      background-color: lighten($color-btn-success, 15%);
-    }
   }
   &.warning {
     background-color: $color-btn-warning;
-    &:hover {
-      background-color: lighten($color-btn-warning, 15%);
-    }
   }
   @include for-tablet-up {
     & {
@@ -51,6 +33,34 @@
     }
     & + .btn {
       margin-left: $gutter;
+    }
+    &:hover {
+      color: $color-grey-dark;
+    }
+    &.default {
+      &:hover {
+        background-color: lighten($color-primary-light, 15%);
+      }
+    }
+    &.error {
+      &:hover {
+        background-color: lighten($color-btn-error, 15%);
+      }
+    }
+    &.info {
+      &:hover {
+        background-color: lighten($color-btn-info, 15%);
+      }
+    }
+    &.success {
+      &:hover {
+        background-color: lighten($color-btn-success, 15%);
+      }
+    }
+    &.warning {
+      &:hover {
+        background-color: lighten($color-btn-warning, 15%);
+      }
     }
   } 
 }
